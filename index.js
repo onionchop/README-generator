@@ -4,6 +4,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // Questions for user input
 const questions = [
+
     {type: "input",
     name: "email",
     message: "What is your email?",
@@ -50,16 +51,22 @@ const questions = [
 ];
 
 // Function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFileSync("SampleREADME.md", fileName, data);
+function writetoFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err)
+            throw err;
+            console.log('README Generated :^)')
+    }
+    );
 }
 
 // Function to initialize app
 function init() {
-    inquirer.prompt(questions).then((inquirerAnswer) =>{
+    inquirer.prompt(questions)
+    .then((inquirerAnswer) =>{
         console.log('Generating Markdown... Please wait.');
-        writeToFile(
-            "GenerateREADME/README.md",
+        writetoFile(
+            "GeneratedREADME.md",
             generateMarkdown({...inquirerAnswer})
         );
     })
