@@ -1,37 +1,18 @@
-# undefined
+## README Generator
 
-  undefined
+## Description
+This project helps generate a professional README file. It was created to swiftly generate README files that use a consistant format.
 
-## Descriptiom
+## Tasks Completed
+* Added functions to create a new generated README file. 
+* Used Node.js to create a demo of this app.
+* 
 
-dsafdsfgg
+## Technology Used
+* Node.js
+* Inquirer
+* FileSystem
 
-## Table of Contents
-
--[Installation] (#installation)
--[Usage] (#usage)
--[Contributions] (#contributionms)
--[Tests] (#test)
--[Questions] (#questions)
-
-## Installation
-
-sdfdfgdsfg
-
-## Usage
-
-dsfsferfew
-
-## Contributions
-
-erfert4
-
-## Tests
-
-tret
-
-## Questions
-
-Have a question? Feel free to email me at (sdfsdfds) or reach out at my Github (https://github.com/dfsdfdsfs)
-:^).
-
+## Links
+* Link to the repository (https://github.com/onionchop/README-generator)
+* Link to a video demonstartion ()
