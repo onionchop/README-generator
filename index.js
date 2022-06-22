@@ -48,14 +48,23 @@ const questions = [
     message: "What license does your project have?",
     choices: ["Eclipse", "IBM", "MIT", "Zlib"],
 },
-
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Function to write README file
+function writeToFile(fileName, data) {
+    return fs.writeFileSync("SampleREADME.md", fileName, data);
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+// Function to initialize app
+function init() {
+    inquirer.prompt(questions).then((inquirerAnswer) =>{
+        console.log('Generating Markdown... Please wait.');
+        writeToFile(
+            "GenerateREADME/README.md",
+            generateMarkdown({...inquirerAnswer})
+        );
+    })
+}
 
 // Function call to initialize app
 init();
