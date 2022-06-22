@@ -1,9 +1,8 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Questions for user input
 const questions = [
     {type: "input",
     name: "email",
@@ -46,7 +45,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What license does your project have?",
-    choices: ["Eclipse", "IBM", "MIT", "Zlib"],
+    choices: ["Eclipse Public", "IBM", "MIT", "Zlib"],
 },
 ];
 
