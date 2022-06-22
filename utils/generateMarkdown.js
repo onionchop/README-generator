@@ -36,6 +36,38 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
+## Descriptiom
+
+${data.description}
+
+## Table of Contents
+
+-[Installation] (#installation)
+-[Usage] (#usage)
+-[Contributions] (#contributionms)
+-[Tests] (#test)
+-[Questions] (#questions)
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## Contributions
+
+${data.contributions}
+
+## Tests
+
+${data.test}
+
+## Questions
+
+Have a question? Feel free to email me at (${data.email}) or reach out at my Github (https://github.com/${data.github}):^).
+
 `;
 }
 
