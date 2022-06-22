@@ -1,37 +1,37 @@
-# dfsdfsdfsdf
+# Demo of app
 
   undefined
 
 ## Description
 
-dsfdasf4ewrt
+This is just a demonstration of the app in use.
 
 ## Table of Contents
 
 -[Installation](#installation)
 -[Usage](#usage)
--[Contributions](#contributionms)
+-[Contributions](#contributions)
 -[Tests](#test)
 -[Questions](#questions)
 
 ## Installation
 
-e4rrt4ttre
+Irr
 
 ## Usage
 
-asdfa4ewr534t63
+Not applicable
 
 ## Contributions
 
-rfgretgyre
+
 
 ## Tests
 
-ergrgrgyreyg
+npm
 
 ## Questions
 
-Have a question? Feel free to email me at (sdfdsfg) or reach out at my Github (https://github.com/dfdsfsdf)
+Have a question? Feel free to email me at (oatemilk@gmail.com) or reach out at my Github (https://github.com/github.com/onionchop)
 :^).
 
